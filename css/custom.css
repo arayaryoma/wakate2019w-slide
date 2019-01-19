@@ -1,0 +1,7 @@
+.two-columns {
+  display: flex;
+}
+.two-columns > div {
+  text-align: left;
+  width: 50%;
+}

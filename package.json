@@ -10,6 +10,17 @@
     "start": "grunt serve",
     "build": "grunt"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,md,css,html}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
   "author": {
     "name": "Hakim El Hattab",
     "email": "hakim.elhattab@gmail.com",
@@ -33,10 +44,13 @@
     "grunt-contrib-qunit": "^2.0.0",
     "grunt-contrib-uglify": "^3.3.0",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-sass": "^2.0.0",
     "grunt-retire": "^1.0.7",
+    "grunt-sass": "^2.0.0",
     "grunt-zip": "~0.17.1",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.0",
     "mustache": "^2.3.0",
+    "prettier": "^1.15.3",
     "socket.io": "^1.7.3"
   },
   "license": "MIT"

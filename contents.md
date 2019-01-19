@@ -175,7 +175,9 @@ A. 基本的に必須(代案はある)
 
 - 全盛期は「魔法」と呼ばれていた
 - gulp や grunt などのタスクランナーと一緒に使う
-- ## image や stylesheet などを module として解決することはできず、純粋に CommonJS の module 解決をする
+- image や stylesheet などを module として解決することはできず、純粋に CommonJS の module 解決をする
+
+---
 
 #### Webpack の代案
 
@@ -248,7 +250,7 @@ HTML + SCSS + ES2018 で書けます
 - ステート管理(Flux, Redux, mobX, Vuex)
 - HTML, CSS, JS の最新仕様
 - 標準仕様の各種ブラウザの実装状況
-- ブラウザのデバッガーの使い方
+- HTTP
 - Browser API
 - WebAssembly
 - ........
@@ -325,6 +327,8 @@ HTML + SCSS + ES2018 で書けます
 
 ## sort 時に文字列に変換しちゃうのかわいい 😆
 
+---
+
 ### 古からある global function の罠
 
 ```javascript
@@ -335,6 +339,8 @@ isNaN("Hello, World"); // -> true
 
 ## NaN じゃなくても`true`返しちゃう！かわいい！😋
 
+---
+
 ### 🍌
 
 ```javascript
@@ -342,7 +348,9 @@ isNaN("Hello, World"); // -> true
 // -> BaNaNa
 ```
 
-## 'B'と'a'だけでバナナが作れる！かわいい！！
+'B'と'a'だけでバナナが作れる！かわいい！！
+
+---
 
 ### `NaN`は Not a Number。ただし...
 

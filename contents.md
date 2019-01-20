@@ -12,6 +12,7 @@
 ![](assets/profile-image-real.jpg) <!-- .element height="200px" style="border-radius: 50%;" -->
 
 - <i class="fas fa-user"></i> あらや/阿部凌磨
+- <i class="fas fa-male"></i> 0x17 歳
 - <i class="fas fa-building"></i> 合同会社ヘマタイト/個人事業主
 - <i class="fab fa-twitter"></i> [@arayaryoma](https://twitter.com/arayaryoma)
 - <i class="fas fa-laptop"></i> HTML/CSS/JavaScript/TypeScript/Go
@@ -177,7 +178,7 @@ A. 基本的に必須(代案はある)
 - gulp や grunt などのタスクランナーと一緒に使う
 - image や stylesheet などを module として解決することはできず、純粋に CommonJS の module 解決をする
 
----
+--
 
 #### Webpack の代案
 
@@ -222,6 +223,7 @@ A. 半分は IE のせい。もう半分は仕方ない
 
 #### とりあえず入り口が欲しい人のために最小構成で例を用意しました
 
+[https://github.com/arayaryoma/minimum-website-boilerplate](https://github.com/arayaryoma/minimum-website-boilerplate)
 HTML + SCSS + ES2018 で書けます
 
 ###### おすすめのホスティングサービス <!-- .element: style="text-align: left" -->
